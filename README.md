@@ -2,7 +2,7 @@
 
 A high-performance, tiered concurrent memory allocator written in pure C for low-latency, multi-threaded workloads with phased lifecycles—such as network packet-processing data planes or real-time game engines.
 
-By decoupling thread-local allocation frontends from a centralized coordinator, worker threads allocate memory completely **lock-free**, achieving an average latency of **3.09 nanoseconds**—outperforming system `glibc malloc` by **6.7x**.
+By decoupling thread-local allocation from a centralized coordinator, worker threads allocate memory completely **lock-free**, achieving an average latency of **3.09 nanoseconds**—outperforming system `glibc malloc` by **6.7x**.
 
 ---
 
