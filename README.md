@@ -16,7 +16,7 @@ The engine was evaluated on a Linux x86_64 system under a **16-core parallel wor
 
 | **Subsystem Layer** | **Total Duration** | **Time Per Allocation** | **Performance Delta** |
 | :--- | :--- | :--- | :--- |
-| **Our Tiered Arena** | **24.70 ms** | **3.09 ns** | **6.7x Faster (Winner)** |
+| **Our Tiered Arena** | **24.70 ms** | **3.09 ns** | **6.7x Faster** |
 | System `glibc malloc` | 166.84 ms | 20.86 ns | Baseline |
 ---
 
